@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro - Laguna Tollon</title>
+</head>
+<body>
+    <form method="get" action="">
+        <label for="name">Nombre: </label>
+        <input type="text" id="name" pattern="[A-Za-z]+" maxlength="50"><br><br>
+        <label for="apellido1">Primer apellido:</label>
+        <input type="text" id="apellido1" pattern="[A-Za-z]+" maxlength="50"><br><br>
+        <label for="apellido2">Segundo apellido:</label>
+        <input type="text" id="apellido2" pattern="[A-Za-z]+" maxlength="50"><br><br>
+        <label for="sexo">Sexo:</label>
+        <select name="sexo" id="sexo">
+            <option value="men">hombre</option>
+            <option value="women">mujer</option>
+        </select><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" pattern="[A-Za-z0-9]+\@gmail\.com" title="invalid email address"><br><br>
+        <input type="checkbox" name="Información" checked>Deseo recibir información sobre novedades y ofertas <br>
+        <input type="checkbox" name="Información">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
